@@ -1,0 +1,27 @@
+name: counter_bloc_example
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^9.1.0
+  integration_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.0.1
+
+flutter:
+  uses-material-design: true
